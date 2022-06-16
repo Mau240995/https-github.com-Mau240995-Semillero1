@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590254342857A58800EDC425 /* ListaDepositos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590254332857A58800EDC425 /* ListaDepositos.swift */; };
+		590254362857B55300EDC425 /* Transferencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590254352857B55300EDC425 /* Transferencia.swift */; };
+		590B10D4285720CA006B4B59 /* DepositoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B10D3285720CA006B4B59 /* DepositoEditView.swift */; };
+		5926B1D2285615A7005D328A /* Cuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D1285615A7005D328A /* Cuenta.swift */; };
+		5926B1D428562056005D328A /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D328562056005D328A /* ContentView1.swift */; };
+		5926B1D72856257D005D328A /* CuentaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D62856257D005D328A /* CuentaViewModel.swift */; };
+		5926B1D928562CF6005D328A /* CuentasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D828562CF6005D328A /* CuentasViewModel.swift */; };
+		5926B1DF285639DC005D328A /* CuentaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1DE285639DC005D328A /* CuentaDetailsView.swift */; };
+		5963C0832857FB94007A4C3D /* ListaTransferencias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963C0822857FB94007A4C3D /* ListaTransferencias.swift */; };
+		5963C0852857FC94007A4C3D /* TransferenciaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963C0842857FC94007A4C3D /* TransferenciaViewModel.swift */; };
+		5963C0872857FFDB007A4C3D /* TransferenciasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963C0862857FFDB007A4C3D /* TransferenciasViewModel.swift */; };
+		5963C08B2858059A007A4C3D /* TransferenciaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963C08A2858059A007A4C3D /* TransferenciaDetailsView.swift */; };
+		5963C08D28580A70007A4C3D /* TransferenciaEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963C08C28580A70007A4C3D /* TransferenciaEditView.swift */; };
+		5969DC4D285A41A3007EAB21 /* ImagenesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5969DC4C285A41A3007EAB21 /* ImagenesView.swift */; };
+		5969DC53285A4BC3007EAB21 /* logotipo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5969DC52285A4BC3007EAB21 /* logotipo.png */; };
+		597488A32856E14200ED8F8D /* Deposito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597488A22856E14200ED8F8D /* Deposito.swift */; };
+		597488A72856F42300ED8F8D /* DepositoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597488A62856F42300ED8F8D /* DepositoViewModel.swift */; };
+		597488A92856F66600ED8F8D /* DepositosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597488A82856F66600ED8F8D /* DepositosViewModel.swift */; };
+		597488AB2857123900ED8F8D /* DepositoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597488AA2857123900ED8F8D /* DepositoDetailsView.swift */; };
+		598880AE2854090D001CC280 /* SemilleroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598880AD2854090D001CC280 /* SemilleroApp.swift */; };
+		598880B02854090D001CC280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598880AF2854090D001CC280 /* ContentView.swift */; };
+		598880B22854090F001CC280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598880B12854090F001CC280 /* Assets.xcassets */; };
+		598880B52854090F001CC280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598880B42854090F001CC280 /* Preview Assets.xcassets */; };
+		598880B72854090F001CC280 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598880B62854090F001CC280 /* Persistence.swift */; };
+		598880BA2854090F001CC280 /* Semillero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 598880B82854090F001CC280 /* Semillero.xcdatamodeld */; };
+		598880C42854090F001CC280 /* SemilleroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598880C32854090F001CC280 /* SemilleroTests.swift */; };
+		598880CE2854090F001CC280 /* SemilleroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598880CD2854090F001CC280 /* SemilleroUITests.swift */; };
+		598880D02854090F001CC280 /* SemilleroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598880CF2854090F001CC280 /* SemilleroUITestsLaunchTests.swift */; };
+		598880DD28540B8B001CC280 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 598880DC28540B8B001CC280 /* GoogleService-Info.plist */; };
+		598880E028540D65001CC280 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 598880DF28540D65001CC280 /* FirebaseAnalytics */; };
+		598880E228540D65001CC280 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 598880E128540D65001CC280 /* FirebaseAnalyticsOnDeviceConversion */; };
+		598880E428540D65001CC280 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 598880E328540D65001CC280 /* FirebaseAppCheck */; };
+		598880E628540D65001CC280 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 598880E528540D65001CC280 /* FirebaseAuth */; };
+		598880E828540D65001CC280 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 598880E728540D65001CC280 /* FirebaseStorage */; };
+		598880EA285432DF001CC280 /* MenuPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598880E9285432DF001CC280 /* MenuPrincipal.swift */; };
+		598880ED28545582001CC280 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 598880EC28545582001CC280 /* FirebaseAuth */; };
+		598880EF28545582001CC280 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 598880EE28545582001CC280 /* FirebaseDatabase */; };
+		598880F128545582001CC280 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 598880F028545582001CC280 /* FirebaseFirestore */; };
+		598880F328545582001CC280 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 598880F228545582001CC280 /* FirebaseFirestoreSwift */; };
+		598880F528545582001CC280 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 598880F428545582001CC280 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		598880C02854090F001CC280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598880A22854090D001CC280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 598880A92854090D001CC280;
+			remoteInfo = Semillero;
+		};
+		598880CA2854090F001CC280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598880A22854090D001CC280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 598880A92854090D001CC280;
+			remoteInfo = Semillero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		590254332857A58800EDC425 /* ListaDepositos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDepositos.swift; sourceTree = "<group>"; };
+		590254352857B55300EDC425 /* Transferencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transferencia.swift; sourceTree = "<group>"; };
+		590B10D3285720CA006B4B59 /* DepositoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositoEditView.swift; sourceTree = "<group>"; };
+		5926B1D1285615A7005D328A /* Cuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuenta.swift; sourceTree = "<group>"; };
+		5926B1D328562056005D328A /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
+		5926B1D62856257D005D328A /* CuentaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewModel.swift; sourceTree = "<group>"; };
+		5926B1D828562CF6005D328A /* CuentasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentasViewModel.swift; sourceTree = "<group>"; };
+		5926B1DE285639DC005D328A /* CuentaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaDetailsView.swift; sourceTree = "<group>"; };
+		5963C0822857FB94007A4C3D /* ListaTransferencias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTransferencias.swift; sourceTree = "<group>"; };
+		5963C0842857FC94007A4C3D /* TransferenciaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferenciaViewModel.swift; sourceTree = "<group>"; };
+		5963C0862857FFDB007A4C3D /* TransferenciasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferenciasViewModel.swift; sourceTree = "<group>"; };
+		5963C08A2858059A007A4C3D /* TransferenciaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferenciaDetailsView.swift; sourceTree = "<group>"; };
+		5963C08C28580A70007A4C3D /* TransferenciaEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferenciaEditView.swift; sourceTree = "<group>"; };
+		5969DC4C285A41A3007EAB21 /* ImagenesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenesView.swift; sourceTree = "<group>"; };
+		5969DC50285A4797007EAB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5969DC52285A4BC3007EAB21 /* logotipo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logotipo.png; sourceTree = "<group>"; };
+		597488A22856E14200ED8F8D /* Deposito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deposito.swift; sourceTree = "<group>"; };
+		597488A62856F42300ED8F8D /* DepositoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositoViewModel.swift; sourceTree = "<group>"; };
+		597488A82856F66600ED8F8D /* DepositosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositosViewModel.swift; sourceTree = "<group>"; };
+		597488AA2857123900ED8F8D /* DepositoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositoDetailsView.swift; sourceTree = "<group>"; };
+		598880AA2854090D001CC280 /* Semillero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semillero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598880AD2854090D001CC280 /* SemilleroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemilleroApp.swift; sourceTree = "<group>"; };
+		598880AF2854090D001CC280 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		598880B12854090F001CC280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		598880B42854090F001CC280 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		598880B62854090F001CC280 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		598880B92854090F001CC280 /* Semillero.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Semillero.xcdatamodel; sourceTree = "<group>"; };
+		598880BF2854090F001CC280 /* SemilleroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemilleroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		598880C32854090F001CC280 /* SemilleroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemilleroTests.swift; sourceTree = "<group>"; };
+		598880C92854090F001CC280 /* SemilleroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemilleroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		598880CD2854090F001CC280 /* SemilleroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemilleroUITests.swift; sourceTree = "<group>"; };
+		598880CF2854090F001CC280 /* SemilleroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemilleroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		598880DC28540B8B001CC280 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		598880E9285432DF001CC280 /* MenuPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPrincipal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598880A72854090D001CC280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598880E028540D65001CC280 /* FirebaseAnalytics in Frameworks */,
+				598880ED28545582001CC280 /* FirebaseAuth in Frameworks */,
+				598880E428540D65001CC280 /* FirebaseAppCheck in Frameworks */,
+				598880F528545582001CC280 /* FirebaseStorage in Frameworks */,
+				598880E228540D65001CC280 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				598880E828540D65001CC280 /* FirebaseStorage in Frameworks */,
+				598880F128545582001CC280 /* FirebaseFirestore in Frameworks */,
+				598880EF28545582001CC280 /* FirebaseDatabase in Frameworks */,
+				598880E628540D65001CC280 /* FirebaseAuth in Frameworks */,
+				598880F328545582001CC280 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598880BC2854090F001CC280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598880C62854090F001CC280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5926B1D028561538005D328A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5926B1D1285615A7005D328A /* Cuenta.swift */,
+				597488A22856E14200ED8F8D /* Deposito.swift */,
+				590254352857B55300EDC425 /* Transferencia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5926B1D5285624F3005D328A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5926B1D62856257D005D328A /* CuentaViewModel.swift */,
+				5926B1D828562CF6005D328A /* CuentasViewModel.swift */,
+				597488A62856F42300ED8F8D /* DepositoViewModel.swift */,
+				597488A82856F66600ED8F8D /* DepositosViewModel.swift */,
+				5963C0842857FC94007A4C3D /* TransferenciaViewModel.swift */,
+				5963C0862857FFDB007A4C3D /* TransferenciasViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5926B1DD2856397D005D328A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				598880E9285432DF001CC280 /* MenuPrincipal.swift */,
+				5926B1D328562056005D328A /* ContentView1.swift */,
+				5926B1DE285639DC005D328A /* CuentaDetailsView.swift */,
+				597488AA2857123900ED8F8D /* DepositoDetailsView.swift */,
+				590B10D3285720CA006B4B59 /* DepositoEditView.swift */,
+				590254332857A58800EDC425 /* ListaDepositos.swift */,
+				5963C0822857FB94007A4C3D /* ListaTransferencias.swift */,
+				5963C08A2858059A007A4C3D /* TransferenciaDetailsView.swift */,
+				5963C08C28580A70007A4C3D /* TransferenciaEditView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5969DC51285A4B15007EAB21 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5969DC52285A4BC3007EAB21 /* logotipo.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		598880A12854090D001CC280 = {
+			isa = PBXGroup;
+			children = (
+				598880AC2854090D001CC280 /* Semillero */,
+				598880C22854090F001CC280 /* SemilleroTests */,
+				598880CC2854090F001CC280 /* SemilleroUITests */,
+				598880AB2854090D001CC280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		598880AB2854090D001CC280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598880AA2854090D001CC280 /* Semillero.app */,
+				598880BF2854090F001CC280 /* SemilleroTests.xctest */,
+				598880C92854090F001CC280 /* SemilleroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598880AC2854090D001CC280 /* Semillero */ = {
+			isa = PBXGroup;
+			children = (
+				5969DC51285A4B15007EAB21 /* Assets */,
+				5969DC50285A4797007EAB21 /* Info.plist */,
+				5926B1DD2856397D005D328A /* View */,
+				5926B1D5285624F3005D328A /* ViewModels */,
+				5926B1D028561538005D328A /* Models */,
+				598880AD2854090D001CC280 /* SemilleroApp.swift */,
+				598880AF2854090D001CC280 /* ContentView.swift */,
+				598880DC28540B8B001CC280 /* GoogleService-Info.plist */,
+				598880B12854090F001CC280 /* Assets.xcassets */,
+				598880B62854090F001CC280 /* Persistence.swift */,
+				598880B82854090F001CC280 /* Semillero.xcdatamodeld */,
+				598880B32854090F001CC280 /* Preview Content */,
+				5969DC4C285A41A3007EAB21 /* ImagenesView.swift */,
+			);
+			path = Semillero;
+			sourceTree = "<group>";
+		};
+		598880B32854090F001CC280 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				598880B42854090F001CC280 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		598880C22854090F001CC280 /* SemilleroTests */ = {
+			isa = PBXGroup;
+			children = (
+				598880C32854090F001CC280 /* SemilleroTests.swift */,
+			);
+			path = SemilleroTests;
+			sourceTree = "<group>";
+		};
+		598880CC2854090F001CC280 /* SemilleroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				598880CD2854090F001CC280 /* SemilleroUITests.swift */,
+				598880CF2854090F001CC280 /* SemilleroUITestsLaunchTests.swift */,
+			);
+			path = SemilleroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598880A92854090D001CC280 /* Semillero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598880D32854090F001CC280 /* Build configuration list for PBXNativeTarget "Semillero" */;
+			buildPhases = (
+				598880A62854090D001CC280 /* Sources */,
+				598880A72854090D001CC280 /* Frameworks */,
+				598880A82854090D001CC280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Semillero;
+			packageProductDependencies = (
+				598880DF28540D65001CC280 /* FirebaseAnalytics */,
+				598880E128540D65001CC280 /* FirebaseAnalyticsOnDeviceConversion */,
+				598880E328540D65001CC280 /* FirebaseAppCheck */,
+				598880E528540D65001CC280 /* FirebaseAuth */,
+				598880E728540D65001CC280 /* FirebaseStorage */,
+				598880EC28545582001CC280 /* FirebaseAuth */,
+				598880EE28545582001CC280 /* FirebaseDatabase */,
+				598880F028545582001CC280 /* FirebaseFirestore */,
+				598880F228545582001CC280 /* FirebaseFirestoreSwift */,
+				598880F428545582001CC280 /* FirebaseStorage */,
+			);
+			productName = Semillero;
+			productReference = 598880AA2854090D001CC280 /* Semillero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		598880BE2854090F001CC280 /* SemilleroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598880D62854090F001CC280 /* Build configuration list for PBXNativeTarget "SemilleroTests" */;
+			buildPhases = (
+				598880BB2854090F001CC280 /* Sources */,
+				598880BC2854090F001CC280 /* Frameworks */,
+				598880BD2854090F001CC280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				598880C12854090F001CC280 /* PBXTargetDependency */,
+			);
+			name = SemilleroTests;
+			productName = SemilleroTests;
+			productReference = 598880BF2854090F001CC280 /* SemilleroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		598880C82854090F001CC280 /* SemilleroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598880D92854090F001CC280 /* Build configuration list for PBXNativeTarget "SemilleroUITests" */;
+			buildPhases = (
+				598880C52854090F001CC280 /* Sources */,
+				598880C62854090F001CC280 /* Frameworks */,
+				598880C72854090F001CC280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				598880CB2854090F001CC280 /* PBXTargetDependency */,
+			);
+			name = SemilleroUITests;
+			productName = SemilleroUITests;
+			productReference = 598880C92854090F001CC280 /* SemilleroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598880A22854090D001CC280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					598880A92854090D001CC280 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					598880BE2854090F001CC280 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 598880A92854090D001CC280;
+					};
+					598880C82854090F001CC280 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 598880A92854090D001CC280;
+					};
+				};
+			};
+			buildConfigurationList = 598880A52854090D001CC280 /* Build configuration list for PBXProject "Semillero" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 598880A12854090D001CC280;
+			packageReferences = (
+				598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				598880EB28545582001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 598880AB2854090D001CC280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598880A92854090D001CC280 /* Semillero */,
+				598880BE2854090F001CC280 /* SemilleroTests */,
+				598880C82854090F001CC280 /* SemilleroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598880A82854090D001CC280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5969DC53285A4BC3007EAB21 /* logotipo.png in Resources */,
+				598880B52854090F001CC280 /* Preview Assets.xcassets in Resources */,
+				598880B22854090F001CC280 /* Assets.xcassets in Resources */,
+				598880DD28540B8B001CC280 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598880BD2854090F001CC280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598880C72854090F001CC280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598880A62854090D001CC280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590254362857B55300EDC425 /* Transferencia.swift in Sources */,
+				598880EA285432DF001CC280 /* MenuPrincipal.swift in Sources */,
+				5963C08D28580A70007A4C3D /* TransferenciaEditView.swift in Sources */,
+				598880B72854090F001CC280 /* Persistence.swift in Sources */,
+				5926B1D928562CF6005D328A /* CuentasViewModel.swift in Sources */,
+				590B10D4285720CA006B4B59 /* DepositoEditView.swift in Sources */,
+				5963C08B2858059A007A4C3D /* TransferenciaDetailsView.swift in Sources */,
+				598880B02854090D001CC280 /* ContentView.swift in Sources */,
+				5926B1D2285615A7005D328A /* Cuenta.swift in Sources */,
+				590254342857A58800EDC425 /* ListaDepositos.swift in Sources */,
+				5926B1DF285639DC005D328A /* CuentaDetailsView.swift in Sources */,
+				5926B1D72856257D005D328A /* CuentaViewModel.swift in Sources */,
+				598880BA2854090F001CC280 /* Semillero.xcdatamodeld in Sources */,
+				5963C0832857FB94007A4C3D /* ListaTransferencias.swift in Sources */,
+				5963C0872857FFDB007A4C3D /* TransferenciasViewModel.swift in Sources */,
+				5969DC4D285A41A3007EAB21 /* ImagenesView.swift in Sources */,
+				597488AB2857123900ED8F8D /* DepositoDetailsView.swift in Sources */,
+				598880AE2854090D001CC280 /* SemilleroApp.swift in Sources */,
+				5963C0852857FC94007A4C3D /* TransferenciaViewModel.swift in Sources */,
+				597488A72856F42300ED8F8D /* DepositoViewModel.swift in Sources */,
+				597488A32856E14200ED8F8D /* Deposito.swift in Sources */,
+				5926B1D428562056005D328A /* ContentView1.swift in Sources */,
+				597488A92856F66600ED8F8D /* DepositosViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598880BB2854090F001CC280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598880C42854090F001CC280 /* SemilleroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598880C52854090F001CC280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598880CE2854090F001CC280 /* SemilleroUITests.swift in Sources */,
+				598880D02854090F001CC280 /* SemilleroUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		598880C12854090F001CC280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 598880A92854090D001CC280 /* Semillero */;
+			targetProxy = 598880C02854090F001CC280 /* PBXContainerItemProxy */;
+		};
+		598880CB2854090F001CC280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 598880A92854090D001CC280 /* Semillero */;
+			targetProxy = 598880CA2854090F001CC280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		598880D12854090F001CC280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		598880D22854090F001CC280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		598880D42854090F001CC280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Semillero/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Semillero/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAURICIO.Semillero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		598880D52854090F001CC280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Semillero/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Semillero/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAURICIO.Semillero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		598880D72854090F001CC280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAURICIO.SemilleroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semillero.app/Semillero";
+			};
+			name = Debug;
+		};
+		598880D82854090F001CC280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAURICIO.SemilleroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semillero.app/Semillero";
+			};
+			name = Release;
+		};
+		598880DA2854090F001CC280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAURICIO.SemilleroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Semillero;
+			};
+			name = Debug;
+		};
+		598880DB2854090F001CC280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAURICIO.SemilleroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Semillero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598880A52854090D001CC280 /* Build configuration list for PBXProject "Semillero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598880D12854090F001CC280 /* Debug */,
+				598880D22854090F001CC280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598880D32854090F001CC280 /* Build configuration list for PBXNativeTarget "Semillero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598880D42854090F001CC280 /* Debug */,
+				598880D52854090F001CC280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598880D62854090F001CC280 /* Build configuration list for PBXNativeTarget "SemilleroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598880D72854090F001CC280 /* Debug */,
+				598880D82854090F001CC280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598880D92854090F001CC280 /* Build configuration list for PBXNativeTarget "SemilleroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598880DA2854090F001CC280 /* Debug */,
+				598880DB2854090F001CC280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		598880EB28545582001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		598880DF28540D65001CC280 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		598880E128540D65001CC280 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		598880E328540D65001CC280 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		598880E528540D65001CC280 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		598880E728540D65001CC280 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		598880EC28545582001CC280 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		598880EE28545582001CC280 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		598880F028545582001CC280 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		598880F228545582001CC280 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		598880F428545582001CC280 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598880DE28540D65001CC280 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		598880B82854090F001CC280 /* Semillero.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				598880B92854090F001CC280 /* Semillero.xcdatamodel */,
+			);
+			currentVersion = 598880B92854090F001CC280 /* Semillero.xcdatamodel */;
+			path = Semillero.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 598880A22854090D001CC280 /* Project object */;
+}
