@@ -67,7 +67,7 @@ struct ContentView: View {
                 }.padding()
            }.navigationBarHidden(false)
             .navigationTitle(isLoginMode ? "Iniciar Sesion" : "Crear Cuenta")
-            .background(LinearGradient(gradient: Gradient(colors: [.white,.green]),startPoint: .top,endPoint: .bottom).edgesIgnoringSafeArea(.all))   
+            .background(LinearGradient(gradient: Gradient(colors: [.white,.red]),startPoint: .top,endPoint: .bottom).edgesIgnoringSafeArea(.all))   
             
         }
     }
