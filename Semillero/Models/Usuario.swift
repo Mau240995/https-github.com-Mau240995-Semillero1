@@ -7,20 +7,27 @@
 
 import Foundation
 import FirebaseFirestoreSwift
+import ModelIO
 
-struct Cuenta: Identifiable, Codable {
+struct Usuario: Identifiable, Codable {
     
     @DocumentID var id: String?
+
     var idCuenta: String
     var fecha: String
     var saldo: String
+    var bono: String
+    //var bonoAsignado: Bool
     var tipo: String
     
     enum CodingKeys: String, CodingKey {
         case id
+        
         case idCuenta
         case fecha
         case saldo
+        case bono
+        //case bonoAsignado
         case tipo
     }
 }

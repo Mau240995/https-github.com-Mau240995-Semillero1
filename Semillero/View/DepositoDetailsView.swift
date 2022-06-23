@@ -1,10 +1,7 @@
-//
-//  DepositoDetailsView.swift
-//  Semillero
+
 //
 //  Created by user217123 on 6/13/22.
 //
-
 import SwiftUI
 
 struct DepositoDetailsView: View {
@@ -17,28 +14,30 @@ struct DepositoDetailsView: View {
             Text("Edit")
         }
     }
-    var deposito: Deposito
+    var deposito  : Deposito
     
     var body: some View {
         Form {
-            Section(header: Text("Deposito")){
+            Section(/*header: Text("Deposito")*/){
                 Text(deposito.cantidad)
                 Text(deposito.descripcion)
+                
             }
         }
-        .navigationBarTitle(deposito.descripcion)
-        .navigationBarItems(trailing: editButton {
+        .navigationBarTitle("Deposito: \(deposito.descripcion)")        .navigationBarItems(trailing: editButton {
             self.presentEditDepositoSheet.toggle()
         })
         .onAppear(){
-            print("depositodetails.onapper()\(self.deposito.descripcion)")
+            print("Detalles Deposito\(self.deposito.descripcion)")
         }
         .onDisappear(){
-            print("Depositos details.onDispacher")
+            print(" Detalles Depositos .onDispacher")
         }
         .sheet(isPresented: self.$presentEditDepositoSheet){
+            
             DepositoEditView(viewModelD: DepositoViewModel(deposito: deposito),mode: .edit)
-        }
+                             
+            }
     }
 }
 

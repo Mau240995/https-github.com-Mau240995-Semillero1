@@ -10,11 +10,12 @@
 		590254342857A58800EDC425 /* ListaDepositos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590254332857A58800EDC425 /* ListaDepositos.swift */; };
 		590254362857B55300EDC425 /* Transferencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590254352857B55300EDC425 /* Transferencia.swift */; };
 		590B10D4285720CA006B4B59 /* DepositoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B10D3285720CA006B4B59 /* DepositoEditView.swift */; };
-		5926B1D2285615A7005D328A /* Cuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D1285615A7005D328A /* Cuenta.swift */; };
+		5926B1D2285615A7005D328A /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D1285615A7005D328A /* Usuario.swift */; };
 		5926B1D428562056005D328A /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D328562056005D328A /* ContentView1.swift */; };
-		5926B1D72856257D005D328A /* CuentaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D62856257D005D328A /* CuentaViewModel.swift */; };
-		5926B1D928562CF6005D328A /* CuentasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D828562CF6005D328A /* CuentasViewModel.swift */; };
-		5926B1DF285639DC005D328A /* CuentaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1DE285639DC005D328A /* CuentaDetailsView.swift */; };
+		5926B1D72856257D005D328A /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D62856257D005D328A /* UsuarioViewModel.swift */; };
+		5926B1D928562CF6005D328A /* UsuariosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1D828562CF6005D328A /* UsuariosViewModel.swift */; };
+		5926B1DF285639DC005D328A /* UsuarioDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926B1DE285639DC005D328A /* UsuarioDetailsView.swift */; };
+		5963A32528638C9C00086020 /* MiCuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963A32428638C9C00086020 /* MiCuenta.swift */; };
 		5963C0832857FB94007A4C3D /* ListaTransferencias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963C0822857FB94007A4C3D /* ListaTransferencias.swift */; };
 		5963C0852857FC94007A4C3D /* TransferenciaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963C0842857FC94007A4C3D /* TransferenciaViewModel.swift */; };
 		5963C0872857FFDB007A4C3D /* TransferenciasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963C0862857FFDB007A4C3D /* TransferenciasViewModel.swift */; };
@@ -70,11 +71,12 @@
 		590254332857A58800EDC425 /* ListaDepositos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDepositos.swift; sourceTree = "<group>"; };
 		590254352857B55300EDC425 /* Transferencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transferencia.swift; sourceTree = "<group>"; };
 		590B10D3285720CA006B4B59 /* DepositoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositoEditView.swift; sourceTree = "<group>"; };
-		5926B1D1285615A7005D328A /* Cuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuenta.swift; sourceTree = "<group>"; };
+		5926B1D1285615A7005D328A /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		5926B1D328562056005D328A /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
-		5926B1D62856257D005D328A /* CuentaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewModel.swift; sourceTree = "<group>"; };
-		5926B1D828562CF6005D328A /* CuentasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentasViewModel.swift; sourceTree = "<group>"; };
-		5926B1DE285639DC005D328A /* CuentaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaDetailsView.swift; sourceTree = "<group>"; };
+		5926B1D62856257D005D328A /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
+		5926B1D828562CF6005D328A /* UsuariosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuariosViewModel.swift; sourceTree = "<group>"; };
+		5926B1DE285639DC005D328A /* UsuarioDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioDetailsView.swift; sourceTree = "<group>"; };
+		5963A32428638C9C00086020 /* MiCuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCuenta.swift; sourceTree = "<group>"; };
 		5963C0822857FB94007A4C3D /* ListaTransferencias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTransferencias.swift; sourceTree = "<group>"; };
 		5963C0842857FC94007A4C3D /* TransferenciaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferenciaViewModel.swift; sourceTree = "<group>"; };
 		5963C0862857FFDB007A4C3D /* TransferenciasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferenciasViewModel.swift; sourceTree = "<group>"; };
@@ -141,7 +143,7 @@
 		5926B1D028561538005D328A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5926B1D1285615A7005D328A /* Cuenta.swift */,
+				5926B1D1285615A7005D328A /* Usuario.swift */,
 				597488A22856E14200ED8F8D /* Deposito.swift */,
 				590254352857B55300EDC425 /* Transferencia.swift */,
 			);
@@ -151,8 +153,8 @@
 		5926B1D5285624F3005D328A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				5926B1D62856257D005D328A /* CuentaViewModel.swift */,
-				5926B1D828562CF6005D328A /* CuentasViewModel.swift */,
+				5926B1D62856257D005D328A /* UsuarioViewModel.swift */,
+				5926B1D828562CF6005D328A /* UsuariosViewModel.swift */,
 				597488A62856F42300ED8F8D /* DepositoViewModel.swift */,
 				597488A82856F66600ED8F8D /* DepositosViewModel.swift */,
 				5963C0842857FC94007A4C3D /* TransferenciaViewModel.swift */,
@@ -166,13 +168,14 @@
 			children = (
 				598880E9285432DF001CC280 /* MenuPrincipal.swift */,
 				5926B1D328562056005D328A /* ContentView1.swift */,
-				5926B1DE285639DC005D328A /* CuentaDetailsView.swift */,
+				5926B1DE285639DC005D328A /* UsuarioDetailsView.swift */,
 				597488AA2857123900ED8F8D /* DepositoDetailsView.swift */,
 				590B10D3285720CA006B4B59 /* DepositoEditView.swift */,
 				590254332857A58800EDC425 /* ListaDepositos.swift */,
 				5963C0822857FB94007A4C3D /* ListaTransferencias.swift */,
 				5963C08A2858059A007A4C3D /* TransferenciaDetailsView.swift */,
 				5963C08C28580A70007A4C3D /* TransferenciaEditView.swift */,
+				5963A32428638C9C00086020 /* MiCuenta.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -402,17 +405,18 @@
 				598880EA285432DF001CC280 /* MenuPrincipal.swift in Sources */,
 				5963C08D28580A70007A4C3D /* TransferenciaEditView.swift in Sources */,
 				598880B72854090F001CC280 /* Persistence.swift in Sources */,
-				5926B1D928562CF6005D328A /* CuentasViewModel.swift in Sources */,
+				5926B1D928562CF6005D328A /* UsuariosViewModel.swift in Sources */,
 				590B10D4285720CA006B4B59 /* DepositoEditView.swift in Sources */,
 				5963C08B2858059A007A4C3D /* TransferenciaDetailsView.swift in Sources */,
 				598880B02854090D001CC280 /* ContentView.swift in Sources */,
-				5926B1D2285615A7005D328A /* Cuenta.swift in Sources */,
+				5926B1D2285615A7005D328A /* Usuario.swift in Sources */,
 				590254342857A58800EDC425 /* ListaDepositos.swift in Sources */,
-				5926B1DF285639DC005D328A /* CuentaDetailsView.swift in Sources */,
-				5926B1D72856257D005D328A /* CuentaViewModel.swift in Sources */,
+				5926B1DF285639DC005D328A /* UsuarioDetailsView.swift in Sources */,
+				5926B1D72856257D005D328A /* UsuarioViewModel.swift in Sources */,
 				598880BA2854090F001CC280 /* Semillero.xcdatamodeld in Sources */,
 				5963C0832857FB94007A4C3D /* ListaTransferencias.swift in Sources */,
 				5963C0872857FFDB007A4C3D /* TransferenciasViewModel.swift in Sources */,
+				5963A32528638C9C00086020 /* MiCuenta.swift in Sources */,
 				5969DC4D285A41A3007EAB21 /* ImagenesView.swift in Sources */,
 				597488AB2857123900ED8F8D /* DepositoDetailsView.swift in Sources */,
 				598880AE2854090D001CC280 /* SemilleroApp.swift in Sources */,

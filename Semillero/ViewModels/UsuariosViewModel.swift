@@ -5,13 +5,15 @@
 //  Created by user217123 on 6/12/22.
 //
 
+    
 import Foundation
+
 import Combine
 import FirebaseFirestore
 
-class CuentasViewModel: ObservableObject{
+class UsuariosViewModel: ObservableObject{
     
-    @Published var cuentas = [Cuenta]()
+    @Published var usuarios = [Usuario]()
     
     private var db = Firestore.firestore()
     
@@ -28,13 +30,13 @@ class CuentasViewModel: ObservableObject{
     }
     func subcribe(){
         if listenerRegistration == nil{
-            listenerRegistration = db.collection("cuentalista").addSnapshotListener{ (querySnapshot, error) in
+            listenerRegistration = db.collection("usuario").addSnapshotListener{ (querySnapshot, error) in
             guard let documents = querySnapshot?.documents else{
                 print("No documents")
                 return
             }
-                self.cuentas = documents.compactMap{
-                    queryDocumentSnapshot in try? queryDocumentSnapshot.data(as: Cuenta.self)
+                self.usuarios = documents.compactMap{
+                    queryDocumentSnapshot in try? queryDocumentSnapshot.data(as: Usuario.self)
                 }
             }
         }

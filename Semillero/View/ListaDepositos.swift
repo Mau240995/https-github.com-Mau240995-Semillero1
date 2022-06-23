@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ListaDepositos: View {
-    @StateObject var viewModel =  CuentasViewModel()
+    @StateObject var viewModel =  UsuariosViewModel()
     @StateObject var viewModelD = DepositosViewModel()
     @State var  presentAddDepositoSheet = false
     
@@ -25,10 +25,8 @@ struct ListaDepositos: View {
     private func depositoRowView(deposito: Deposito) -> some View{
         NavigationLink(destination: DepositoDetailsView(deposito: deposito)){
             VStack(alignment: .leading){
-                Text("Cantidad $")
-                Text(deposito.descripcion)
-                Text("Descripcion:")
-                Text(deposito.cantidad)
+                Text("Cantidad: $ \(deposito.cantidad)")
+                Text("Descripcion: \(deposito.descripcion)")
             }
         }
     }
@@ -37,12 +35,13 @@ struct ListaDepositos: View {
             List {
                 ForEach(viewModelD.depositos){ deposito in
                     depositoRowView(deposito: deposito)
+                
                 }
             }
             .navigationTitle(" Depositos ")
             .navigationBarItems(trailing: addButton)
             .onAppear(){
-               print("Cuentas List View")
+               print("Lista Depositos")
                 self.viewModel.subcribe()
                 self.viewModelD.subcribe()
             }

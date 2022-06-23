@@ -26,7 +26,7 @@ struct DepositoEditView: View {
         Button(action: {
             self.handleCancelTapped()
         }) {
-            Text("Cancel")
+            Text("Cancelar")
         }
     }
     var saveButton: some View{
@@ -46,7 +46,7 @@ struct DepositoEditView: View {
                 }
                 if mode == .edit{
                     Section{
-                        Button("Delete"){
+                        Button("Eliminar"){
                             self.presentActionSheet.toggle()
                         }
                         .foregroundColor(.red)
@@ -61,9 +61,9 @@ struct DepositoEditView: View {
             trailing : saveButton
             )
             .actionSheet(isPresented: $presentActionSheet){
-                ActionSheet(title: Text("Are you sourse?"),
+                ActionSheet(title: Text("Esta Seguro ?"),
                             buttons: [
-                                .destructive(Text("Delete Deposito"),
+                                .destructive(Text("Eliminar Deposito"),
                                              action: {
                                                  self.handleDeleteTappen()
                                              }),

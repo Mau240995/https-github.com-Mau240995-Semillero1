@@ -13,6 +13,7 @@ class DepositoViewModel: ObservableObject{
     
     @Published var deposito: Deposito
     @Published var modified = false
+    @Published var saldo = ""
     
     private var cancellables = Set<AnyCancellable>()
     
@@ -32,6 +33,8 @@ class DepositoViewModel: ObservableObject{
     private func addDeposito(_ deposito: Deposito){
         do{
             let _ = try db.collection("depositolista").addDocument(from: deposito)
+            ///saldo += deposito.cantidad
+            
         }
         catch{
             print(error)
@@ -72,5 +75,6 @@ class DepositoViewModel: ObservableObject{
         self.removeDeposito()
     }
     }
-    
+
+
 
